@@ -1,0 +1,20 @@
+'.source.js':
+  'Constructor(Inherit)':
+    'prefix': 'inherit'
+    'body': """/**
+     * ${1:objDescription}
+     *
+     * @param {${2:type}} ${3:name} ${4:description}
+     * @return {${5:type}}
+     * @constructor
+     * @extends {${6:superClass}}
+     **/
+    ${7:namespace}.${8:package}.${9:objName}. = function(${10:params}) {
+      // Initialize your class here.
+      $13
+    };
+    goog.inherits(goog.${11:superClass}, ${12:thisObjectName});
+
+
+    $14
+    """

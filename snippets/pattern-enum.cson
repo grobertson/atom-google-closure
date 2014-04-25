@@ -1,0 +1,13 @@
+'.source.js':
+  'Enum Type':
+    'prefix': 'enum'
+    'body': """/**
+ * ${1:Enumerated constants}.
+ * @enum {${2:type}}
+ */
+ ${3:namespace}.${4:package}.${5:ConstName} = {
+   ${6:NAME}: '${7:VALUE}',
+   ${8:NAME}: '${9:VALUE}'
+ }
+
+ $10"""

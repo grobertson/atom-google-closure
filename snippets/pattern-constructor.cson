@@ -1,0 +1,18 @@
+'.source.js':
+  'Constructor':
+    'prefix': 'constructor'
+    'body': """/**
+     * ${1:objDescription}
+     *
+     * @param {${2:type}} ${3:name} ${4:description}
+     * @return {${5:type}}
+     * @constructor
+     **/
+    ${6:namespace}.${7:package}.${8:objName}. = function(${9:params}) {
+      // Initialize your class here.
+      $10
+    };
+
+
+    $11
+    """

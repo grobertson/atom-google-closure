@@ -1,0 +1,11 @@
+'.source.js':
+  'Copyright':
+    'prefix': 'fileoverview'
+    'body': """/**
+ * @fileoverview ${1:Package description...}
+ *
+ * @see ${2:Documentation Url}
+ */
+
+    $3
+    """

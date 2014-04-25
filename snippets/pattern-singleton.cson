@@ -1,0 +1,21 @@
+'.source.js':
+  'Constructor(Singleton)':
+    'prefix': 'singleton'
+    'body': """/**
+     * ${1:objDescription}
+     *
+     * @param {${2:type}} ${3:name} ${4:description}
+     * @return {${5:type}}
+     * @constructor
+     * @extends {${6:baseClass}}
+     **/
+    ${7:namespace}.${8:package}.${9:myClass}. = function(${10:params}) {
+      ${11:baseClass}.call(this);
+      // Initialize your class here.
+      $15
+    };
+    goog.inherits(goog.${12:baseClass}, ${13:myClass});
+    goog.addSingletonGetter(${14:baseClass});
+
+    $16
+    """
