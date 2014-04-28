@@ -1,0 +1,17 @@
+'.source.js':
+  'Prototype function':
+    'prefix': 'profn'
+    'body': """/**
+    * ${1:protoName}
+    * ${2:Description...}
+    * @param ${3:name} ${4:name} ${5:type} ${6:description}
+    * @return ${7:type}
+    * @${8:override}
+    **/
+    ${9:protoName} = function(${10:params}){
+      ${11:// Implementation...}
+    };
+
+
+    $12
+    """

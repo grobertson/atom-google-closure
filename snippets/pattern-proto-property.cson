@@ -1,0 +1,29 @@
+'.source.js':
+  'Prototype function':
+    'prefix': 'proprop'
+    'body': """/**
+    * ${1:propName}
+    * ${2:Description...}
+    * @private
+    **/
+    ${3:protoName}_ = ${4:true};
+
+
+    * $get{5:propName}
+    * Getter for ${6:propName}
+    **/
+    ${7:propName} = function() {
+      return {8:propName}_;
+    };
+
+
+    * $set{9:propName}
+    * Setter for ${10:propName}
+    **/
+    ${11:propName} = function(value) {
+      {12:propName}_ = value;
+    };
+
+
+    $13
+    """
