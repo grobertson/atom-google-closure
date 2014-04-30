@@ -1,14 +1,15 @@
 {
   "name": "google-closure",
   "main": "./lib/atom-google-closure",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Convenience package for working with Google Closure annotated JavaScript",
-  "activationEvents": ["atom-google-closure:toggle"],
+  "activationEvents": [
+    "atom-google-closure:toggle"
+  ],
   "repository": "https://github.com/grobertson/atom-google-closure",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
